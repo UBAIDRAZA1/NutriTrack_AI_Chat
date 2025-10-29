@@ -7,7 +7,7 @@ const app = express();
 
 // ✅ CORS configuration
 app.use(cors({ 
-  origin: ['http://localhost:5173', 'https://nutri-track-ai-production.up.railway.app'], // dono allow
+  origin: ['http://localhost:5173', 'https://comfortable-elegance-production.up.railway.app/'], // dono allow
   credentials: true,
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'x-auth-token']
