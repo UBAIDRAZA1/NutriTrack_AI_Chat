@@ -2,8 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "install": "cd backend && npm install",
-    "build": "cd backend && npm install",
-    "start": "cd backend && node index.js"
+    "postinstall": "cd backend && npm install",
+    "start": "cd backend && npm start"
   }
 }
