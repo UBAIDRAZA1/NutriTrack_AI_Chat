@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# production build
+build/
+
+# misc
+.DS_Store
+.env
+.env.*.local
+*.local
+*.log
+
+# vite cache
+.vite/
+
+# yarn/pnpm lockfiles (optional, if not using)
+yarn.lock
+pnpm-lock.yaml
+
+# editor folders and IDE settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
