@@ -48,5 +48,8 @@ npm list express mongoose cors bcryptjs jsonwebtoken dotenv
 
 ### stop backend process
 Stop-Process -Name "node" -Force
+
+
+
 "# NutriTrack_AI_Chat" 
 "# NutriTrack_AI_Chat" 
